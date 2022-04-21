@@ -1,0 +1,16 @@
+{
+  "name": "new-nsiems",
+  "version": "1.0.0",
+  "description": "A website for showcasing activities of Nigerian Studies in Economics and Management Science",
+  "main": ".eleventy.js",
+  "author": "Samson Olusegun",
+  "license": "ISC",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "edge.js": "^5.3.3"
+  }
+}

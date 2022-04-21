@@ -1,0 +1,79 @@
+@import "../style/bulma/bulma.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.nav-colour{
+  background-color: rgb(25 112 56) !important;
+}
+
+.menu a {
+  color: aliceblue !important;
+}
+
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+  color: black !important;
+}
+
+@media (max-width: 600px) {
+  .menu a h1 {
+    color: cornsilk !important;
+  }
+
+  .burger {
+    color: cornsilk !important;
+  }
+
+  .menu a {
+    color: black !important;
+  }
+
+  .gsc-search-button, .gsc-search-button-v2{
+    width: 20px !important;
+  }
+}
+
+@media (max-width:900px) {
+  .menu a h1 {
+    color: cornsilk !important;
+  }
+
+  .burger {
+    color: cornsilk !important;
+  }
+
+  .menu a {
+    color: black !important;
+  }
+}
+
+.menu-2 a {
+  color: black !important;
+}
+
+.gsc-control-cse, .gsc-control-cse-en{
+  display: grid !important;
+  place-content: center !important;
+  max-height: 50px !important;
+  border-radius: 10px !important;
+}
+
+.gsc-input-box, .gsc-input{
+  max-width: 230px  !important;
+}
+
+.gsc-search-button, .gsc-search-button-v2{
+  width: 20px !important;
+}
+
+.background{
+  background-color: rgb(53, 133, 81) !important;
+}
+
+

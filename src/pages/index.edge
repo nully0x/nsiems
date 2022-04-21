@@ -1,0 +1,328 @@
+@layout('layouts/main')
+
+@section('header')
+@!component('components/header')
+@endsection
+
+@section('main')
+
+<section class="is-fullwidth">
+    <figure class="figure">
+        <img loading="lazy"
+            src="https://firebasestorage.googleapis.com/v0/b/nisems-bedd2.appspot.com/o/images%2Fpapers%2Fnsiems-cover.jpeg?alt=media&token=d57437c7-997b-4d47-ad66-cd02268fd2eb"
+            alt="nsiems-cover">
+    </figure>
+</section>
+
+<!-- about section -->
+<section class="section has-text-centered" id="about">
+    <div>
+        <h3 class="title is-4 mb-5 is-1">About NSiEMS</h3>
+    </div>
+    <article class="is-light has-text-justified">
+        The Nigerian Studies in Economics and Management Sciences (NSiEMS) is a research journal that publishes new and
+        advanced research results in the fields of Economics, Management Sciences and behavioural aspect of Geography,
+        Political Science and Law as well as discussion on local, state and national economic issues. In line with the
+        aims and scope of the journal, the editors encourage research works that are innovative and management-based
+        which can advance frontier of knowledge; such novelty and innovation could have origins in ideas, theoretical
+        development, databases, research design and methodologies. The journal periodically comes out with special
+        issues under Guest Editors and also publishes articles from the annual Nigerian Studies in Economics and
+        Management Sciences Conference sponsored by the Departments of Accounting, Banking and Finance, Business
+        Administration and Economics of Adekunle Ajasin University, Akungba-Akoko, Ondo State, Nigeria.
+    </article>
+</section>
+
+<!-- editorial section -->
+<section class="section background has-text-centered is-justify-content-center" id="editorial">
+    <div>
+        <h3 class="title is-4 mb-5 has-text-white">Editorial Board</h3>
+    </div>
+    <main
+        class="is-flex-direction-row is-flex-wrap-wrap  has-text-centered is-justify-content-center is-vcentered  columns is-desktop">
+            <article class="column is-4 m-2 message is-light">
+                <div class="message-header">
+                    <p>Editor-in-chief</p>
+                </div>
+                <div class="message-body has-text-justified">
+                    Professor Modupe Fasoranti
+                </div>
+            </article>
+            <article class="column is-4  ml-4 message is-light">
+                <div class="message-header">
+                    <p>Editor</p>
+                </div>
+                <div class="message-body has-text-justified">
+                    Professor Sunday Akinmulegun
+                </div>
+            </article>
+
+
+        <article class="auto column is-7 message is-light">
+            <div class="message-header">
+                <p>Editorial advisory board</p>
+            </div>
+            <div class="message-body has-text-left">
+                <ol>
+                    <li>
+                        Professor Sola Olorunfemi, Adekunle Ajasin University, Akungba-Akoko, Ondo State Nigeria
+                    </li>
+                    <li>
+                        Professor Kola Olorunleke, Adekunle Ajasin University, Akungba-Akoko, Ondo State Nigeria
+                    </li>
+                    <li>
+                        Professor Felix Olurankinse, Adekunle Ajasin University, Akungba-Akoko, Ondo State Nigeria
+                    </li>
+                    <li>
+                        Professor Bayo Fatukasi, Adekunle Ajasin University, Akungba-Akoko, Ondo State Nigeria
+                    </li>
+                    <li>
+                        Dr. Sanya Ogunsakin, Ekiti State University, Ado-Ekiti, Ekiti State
+                    </li>
+                    <li>
+                        Dr. Oluwatosin Adesina, Lead City University, Ibadan, Oyo State
+                    </li>
+                    <li>
+                        Dr. Rotimi Oladele, Federal University, Oye-Ekiti, Ekiti State
+                    </li>
+                </ol>
+            </div>
+        </article>
+    </main>
+</section>
+
+<!-- Author's Guide -->
+<section class="section is-fullwidth has-text-centered is-vcentered" id="author-guide">
+    <div>
+        <h3 class="title is-4 mb-5">Author's Guide</h3>
+    </div>
+    <div
+        class="is-flex-direction-row is-flex-wrap-wrap  has-text-centered is-justify-content-center is-vcentered  columns is-desktop">
+        <article class="box column message is-3 is-light m-3">
+            <div class="message-header">
+                <p>SUBMISSION OF MANUSCRIPTS</p>
+            </div>
+            <div class="has-text-justified">
+                Manuscripts should be submitted in MS-Word online on the journal website <a
+                    href="https://www.nsiems.com">https://www.nsiems.com</a>.
+                In case you have any issue with online submission, you can submit paper through email: <a
+                    href="mailto:papersubmission@nsiems.com">papersubmission@nsiems.com</a>,
+                <a href="mailto:nsiems.aaua@gmail.com">nsiems.aaua@gmail.com</a>. On receipt of manuscript, an
+                acknowledgement email stating the assigned article ID will be sent to corresponding author for further
+                correspondence.
+            </div>
+        </article>
+
+        <article class="box column auto message is-2 is-light m-3">
+            <div class="message-header">
+                <p>DOCUMENT FORMAT</p>
+            </div>
+            <div class="has-text-justified">
+                Microsoft Word for Text, Times New Roman 12 point and double line spacing (tables and charts inclusive),
+                1.0 inches (2.54cm) in all sides. Manuscript above 18 pages attracts extra payment of N1,000.00 ($2) per
+                page.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>COVER PAGE</p>
+            </div>
+            <div class="has-text-justified">
+                Cover page must contain the title of the paper, which must be concise and clear (not more than sixteen
+                words), followed by author(s) name(s), institutional affiliation and contact address. Name of the
+                corresponding author must be prefixed with an asterisk.
+            </div>
+        </article>
+
+        <article class="box column message is-3 is-light m-3">
+            <div class="message-header">
+                <p>ABSTRACT</p>
+            </div>
+            <div class="has-text-justified">
+                The Abstract should be informative and completely self-explanatory. It should briefly define the
+                study/objective, methodology, results and conclusion. The Abstract should not exceed 200 words. The
+                abstract should be written in the past tense and in complete sentences. Standard nomenclature should be
+                used and abbreviations should be avoided. No literature should be cited. Following the abstract, about 3
+                - 5 key words that will provide indexing references should be listed.
+            </div>
+        </article>
+
+        <article class="box column message is-3 is-light m-3">
+            <div class="message-header">
+                <p>INTRODUCTION</p>
+            </div>
+            <div class="has-text-justified">
+                The Introduction should provide a clear statement of the problem, the relevant literature on the
+                subject, and the proposed approach or solution (statement of problem/gap in literature). It should be
+                written in language that is understandable to colleagues from a broad range of specific disciplines.
+                NOTE: Research project or thesis writing style of outlining background, statement of research problem,
+                research questions, objectives and hypothesis is not allowed. They are ingredients of Introduction but
+                must be written as a prose.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>METHODS</p>
+            </div>
+            <div class="has-text-justified">
+                Methods should be complete enough to allow methodology to be reproduced. However, only truly new
+                procedures should be described in detail; previously published procedures should be cited, and important
+                modifications of published procedures should be mentioned briefly.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>RESULTS</p>
+            </div>
+            <div class="has-text-justified">
+                Results should be presented with clarity and precision and written in the past tense when describing
+                findings in the author’s experiments. Results should be explained, but largely without referring to the
+                literature.
+            </div>
+        </article>
+
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>DISCUSSION</p>
+            </div>
+            <div class="has-text-justified">
+                The Discussion should interpret the findings in view of the results obtained in the current study and in
+                previous studies on the subject matter. This section should also present the implication of findings for
+                policy and in current debate.
+            </div>
+        </article>
+
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>CONCLUSION</p>
+            </div>
+            <div class="has-text-justified">
+                Conclusion should be in a few sentences at the end of the paper in line with the sect objectives.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>ACKNOWLEDGEMENT</p>
+            </div>
+            <div class="has-text-justified">
+                The Acknowledgments of people, grants, funds, etc should be brief (Optional).
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>TABLE</p>
+            </div>
+            <div class="has-text-justified">
+                Tables should be kept to a minimum and be designed to be as simple as possible. Each table should be
+                inserted appropriately in the main body of the text and numbered consecutively. Tables should be
+                prepared in Microsoft Word.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>FIGURES</p>
+            </div>
+            <div class="has-text-justified">
+                Figures should be inserted appropriately in the main body of the text and numbered consecutively.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>REFERENCES</p>
+            </div>
+            <div class="has-text-justified">
+                All the works cited in the body of the work must be properly referenced and listed in the reference
+                section following the APA sixth edition format.
+            </div>
+        </article>
+
+        <article class="box column message is-2 is-light m-3">
+            <div class="message-header">
+                <p>ORIGINALITY</p>
+            </div>
+            <div class="has-text-justified">
+                Paper submitted should be an original and unpublished work. All paper submitted will be subjected to
+                preliminary review for originality before being sent for peer review. The journal does not accept any
+                article with a similarity index above 15%.
+            </div>
+        </article>
+
+        <article class="box column message is-3 is-light m-3">
+            <div class="message-header">
+                <p>PEER REVIEW POLICY</p>
+            </div>
+            <div class="has-text-justified">
+                Submitted papers are given accelerated and thorough double- blind review, whereby the identity of the
+                reviewer and authors is not revealed to each other. The editorial decision is reached within 4-6 weeks
+                of submission. Where a revision is recommended, author(s) are expected to send in the revised version of
+                their paper within 3 weeks. Any submission of revised work after the 3 weeks deadline means that the
+                manuscript will be subjected to another round of review and treated as new submission.
+            </div>
+        </article>
+
+        <article class="box column message is-3 is-light m-3">
+            <div class="message-header">
+                <p>PUBLICATION FEE</p>
+            </div>
+            <div class="has-text-justified">
+                Authors of accepted manuscripts are expected to pay a publication fee of ₦25,000 (twenty-five thousand
+                Naira) or its equivalent to cover the cost of production. The corresponding author of published articles
+                are entitled to a copy of the Journal; but s/he can request for a extra copy at the prevailing price.
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- call for papers -->
+<section class="background" id="call-for-paper">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+                <div class="column is-6 is-offset-1">
+                    <h1 class="title is-2 has-text-white">
+                        Call for Papers
+                    </h1>
+                    <br>
+                    <h2 class=" has-text-white subtitle is-4">
+                        The Nigerian Study in Economics and Management Sciences has regular Call for Papers for their
+                        upcoming special issues, and conferences. Read the Author's Guideline and consider submitting
+                        your papers to the Journal
+                    </h2>
+                    <br>
+                    <p class="has-text-centered">
+                        <a href="#author-guide" class=" has-text-white button is-medium is-info is-outlined">
+                            Read the Author's Guideline
+                        </a>
+                    </p>
+                </div>
+                <div class="column is-5">
+                    <figure class="image">
+                        <img loading="lazy" class="has-text-white"
+                            src="https://firebasestorage.googleapis.com/v0/b/nisems-bedd2.appspot.com/o/images%2Fpapers%2FNSiEMS%20Call%204%20Paper%202020.JPG?alt=media&token=5afed521-5574-4858-99ec-d476ea4c3824"
+                            alt="Call for Paper">
+                    </figure>
+                    <a href="https://firebasestorage.googleapis.com/v0/b/nisems-bedd2.appspot.com/o/images%2Fpapers%2FNSiEMS%20Call%204%20Paper%202020.JPG?alt=media&token=5afed521-5574-4858-99ec-d476ea4c3824"
+                        download="call-for-paper"
+                        class="button has-text-white is-medium m-2 is-info is-outlined has-text-centered">
+                        Download Flier
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@endsection
+
+@section('footer')
+@!component('components/footer')
+@endsection
