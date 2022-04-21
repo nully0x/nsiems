@@ -112,9 +112,9 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 firebase.indexes.json
-firebase.rules
+firestore.rules
 firebase.json
-firebaserc
+.firebaserc
 storage.rules
 
 # Firebase cache
